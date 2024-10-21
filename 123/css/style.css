@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  padding: 0 197px;
+}
+
+header {
+  background: url("../img/123.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 793px;
+  width: 100%;
+  color: white;
+
+}
+
+nav {
+display: flex;
+padding: 16px 0;
+align-items: center;
+gap: 40px;
+justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;  
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  gap: 21px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+} 
+
+.log-mem {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+  color: white;
+}
+
+nav button {
+  padding: 15px 25px;
+  color: white;
+  border-radius: 5px;
+}
+
+.login-button {
+  background: none;
+
+}
+
+.membership-button, .quote-button {
+  background: #23A6F0;
+}
+
+.quote-button, .learn-more-button {
+  padding: 15px 36px;
+  border-radius: 37px;
+}
+
+.learn-more-button {
+  background: none;
+  border: 1px solid white;
+}
+
+.header-section h1 {
+  font-size: 58px;
+}
+
+.header-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 695px;
+  gap: 40px;
+  padding: 120px 0 40px;
+}
+
+.header-section h4 {
+  padding: 0 80px;
+}
+
+.cards-header {
+  padding-top: 80px;
+}
+
+.cards-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.card {
+  background-color: white;
+  padding: 35px 40px;
+  color: black;
+  box-shadow: 0px 4px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 200px;
+  justify-content: center;
+}
+
+.card img {
+  width: 48px;
+  height: 40px;
+}
+
+.card:nth-child(3) {
+  background-color: #23A6F0;
+  color: white;
+}
+
+.card h3 {
+  font-size: 24px;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  padding: 96px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 45.5px;
+  gap: 30px;
+}
+
+.text-feature {
+  text-align: center;
+}
